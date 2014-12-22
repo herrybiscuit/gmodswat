@@ -8,5 +8,5 @@ function GM:CanPlayerSuicide( ply )
 end
 
 local function DisableNoclip( ply )
-	return ply:IsAdmin() or ply:Team() == 2
+	return ply:IsAdmin()
 end

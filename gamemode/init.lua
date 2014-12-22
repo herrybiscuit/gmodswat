@@ -7,7 +7,8 @@ include("shared.lua")
 include("player.lua")
 
 function GM:PlayerInitialSpawn( ply )
-	ply:SetGamemodeTeam( 2 )
+	--ply:SetGamemodeTeam( 2 )
+	GM:PlayerSpawnAsSpectator(ply)
 end
 
 --Load modules
