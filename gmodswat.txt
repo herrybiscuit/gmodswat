@@ -1,0 +1,14 @@
+"Gamemode"
+{
+	"base"		"base"
+	"title"		"gmodswat"
+	"version"	"0.0.1"
+	"maps"		"^swat_"
+	"menusystem"	"1"
+
+
+	"icon"  ""
+	"info"  ""
+	"hide"  "0"
+	
+}
